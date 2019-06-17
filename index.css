@@ -1,0 +1,50 @@
+/*Common CSS stylings*/
+
+body{
+	background-color: #525659;
+}
+
+.container-fluid {	
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.mavenai_logo {
+	height: 75px;
+}
+
+.center-nav{
+	margin: 0 auto;
+}
+
+.center-nav li a{
+	font-size: 20px;
+	margin-right: 15px;
+	transition: all 0.2s;
+}
+
+.center-nav li a:hover{
+	font-size: 25px;
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+.contact-us {
+	font-size: 20px;
+}
+
+/*Introduction Styling*/
+
+.introduction{
+	background-color: #fff;
+	padding: 50px;
+	padding-bottom: 100px;
+}
+
+.introduction-heading{
+	padding: 30px 0;
+}
+
+.introduction-text {
+	font-size: 20px;
+}
