@@ -2,6 +2,13 @@
 
 body{
 	background-color: #525659;
+	color: #3F4448;
+}
+
+hr.style5 {
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+	margin-top: 50px;
 }
 
 .container-fluid {	
@@ -24,27 +31,165 @@ body{
 }
 
 .center-nav li a:hover{
-	font-size: 25px;
+	font-size: 20.25px;
 	font-weight: bold;
 	margin-right: 15px;
 }
 
 .contact-us {
 	font-size: 20px;
+	background: #41a5f2 !important;
 }
+
+.contact-us:hover{
+	font-size: 20.25px;
+	background: #0489ef !important;
+}
+
+/*Footer*/
+
+.footer{
+	background: #41a5f2;
+}
+
+.footer h3{
+	padding: 30px 0;
+	color: white;
+	text-align: right;
+}
+
+.footer-nav{
+	list-style-type: none;
+	padding: 30px 10px;
+}
+
+.footer-nav li {
+	line-height: 30px;
+}
+
+.footer-nav a{
+	text-decoration: none;
+	color: white;
+}
+
+.subscribe{
+	color: white;
+	padding: 30px 0;
+}
+
+.input-email{
+	background: #41a5f2 !important;
+}
+
+.input-email::placeholder{
+	color: white !important;
+}
+
+.input-email-button {
+	background: white;
+	color: #41a5f2;
+	border: 1px solid #41a5f2;
+}
+
+.input-email-button:hover{
+	background: #0489ef;
+	color: white;
+	border: 1px solid white;
+}
+
+.address{
+	color: white;
+	padding: 30px 0;
+	text-align: center;
+}
+
 
 /*Introduction Styling*/
 
-.introduction{
+.introduction, .ai-ml, .blockchain, .ar-vr, .core-team{
 	background-color: #fff;
 	padding: 50px;
 	padding-bottom: 100px;
 }
 
-.introduction-heading{
-	padding: 30px 0;
+.introduction-left, .blockchain-left{
+	border-right: 1px solid #000;
+	padding: 50px;
 }
 
-.introduction-text {
+.introduction-right{
+	text-align: center;
+}
+
+.introduction-heading, .ai-ml-heading, .blockchain-heading, .ar-vr-heading{
+	padding: 30px 0;
+	color: #41a5f2;
+}
+
+.introduction-text, .ai-ml-text, .blockchain-text, .ar-vr-text{
 	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+/*AI and ML styling*/
+
+.ai-ml-left{
+	margin: 0 auto;
+	text-align: right;
+}
+
+.ai-ml-img{
+	height: 500px;
+	padding: 0 25%;
+	border-radius: 50%;
+}
+
+.ai-ml-right, .ar-vr-right{
+	padding: 50px;
+	border-left: 1px solid #000;
+}
+
+/*Blockchain*/
+
+.blockchain-img{
+	height: 500px;
+	border-radius: 50%;
+	padding: 0 10%;
+}
+
+/*AR-VR*/
+
+.ar-vr-img{
+	height: 500px;
+	border-radius: 20%;
+	padding: 0 25%;
+}
+
+/*Core team*/
+
+.core-team-heading {
+	text-align: center;
+	color: #41a5f2;
+}
+
+.core-team-member{
+	padding: 30px;
+	text-align: center;
+}
+
+.core-team-img {
+	height: 250px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.member-name{
+	font-size: 25px;
+}
+
+.member-role {
+	font-size: 20px;
+	color: #41a5f2;
 }
