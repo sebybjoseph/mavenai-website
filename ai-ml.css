@@ -1,0 +1,98 @@
+/*Jumbotron styling*/
+
+.jumbotron{
+	background-image: url('image/franck-v-740555-unsplash.jpg');
+	background-size: cover;
+	background-position: center center;
+	height: 500px;
+	margin-bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.jumbotron h1{
+	background: rgba(0,0,0, 0.5);
+	text-align: center;
+	/*border: 1px solid white;*/
+	padding: 50px;
+	color: white;
+}
+
+/*Introduction*/
+.ai-ml-introduction{
+	text-align: center;
+	background-color: #fff;
+	padding: 50px;
+	padding-bottom: 100px;
+}
+
+/*Marketing-CRM*/
+.marketing-crm, .customer-service, .sales, .it-operations{
+	background-color: #fff;
+	padding: 50px;
+	padding-bottom: 100px;
+}
+
+.marketing-crm-img, .customer-service-img, .sales-img, .it-operations-img{
+	height: 300px;
+	margin: 0 auto;
+	border-radius: 5%;
+}
+
+.marketing-crm-right, .customer-service-left, .sales-left, .it-operations-right{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.marketing-crm-left, .it-operations-left{
+	display: flex;
+	justify-content: center;
+	border-right: 1px solid #41a5f2;
+}
+
+.marketing-crm-left-heading, .customer-service-right-heading, .sales-right-heading, .it-operations-left-heading{
+	text-align: center;
+	padding-bottom: 30px;
+	color: #41a5f2;
+}
+
+.marketing-crm-left-list, .customer-service-right-list, .sales-right-list, .it-operations-left-list{
+	list-style-type: none;
+	padding: 30px 10px;
+}
+
+.marketing-crm-left-list li, .customer-service-right-list li, .sales-right-list li, .it-operations-left-list li{
+	line-height: 50px;
+}
+
+.marketing-crm-left-list a, .customer-service-right-list a, .sales-right-list a, .it-operations-left-list a{
+	color: black;
+	font-size: 20px;
+	transition: all 0.2s;
+}
+
+.marketing-crm-left-list a:hover, .customer-service-right-list a:hover, .sales-right-list a:hover, .it-operations-left-list a:hover{
+	font-size: 20.25px;
+	text-decoration: none;
+}
+
+.marketing-crm .get-in-touch, .it-operations .more-details{
+	background: #41a5f2;
+	color: white;
+	font-size: 20px;
+}
+
+.marketing-crm .get-in-touch:hover, .it-operations .more-details:hover{
+	background: #0489ef;
+	color: white;
+	font-size: 20.25px;
+}
+
+/*Customer Service*/
+.customer-service-right, .sales-right{
+	display: flex;
+	justify-content: center;
+	border-left: 1px solid #41a5f2;
+}
