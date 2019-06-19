@@ -1,4 +1,4 @@
-.jumbotron{
+.intro-jumbotron{
 	background-image: url('image/jens-kreuter-159303-unsplash.jpg');
 	background-size: cover;
 	background-position: center center;
@@ -9,7 +9,7 @@
 	justify-content: center;
 }
 
-.jumbotron h1{
+.intro-jumbotron h1{
 	background: rgba(0,0,0, 0.8);
 	text-align: center;
 	width: 100%;
@@ -17,7 +17,7 @@
 	color: white;
 }
 
-.ar-vr-introduction{
+.ar-vr-introduction, .demo-videos{
 	text-align: center;
 	background-color: #fff;
 	padding: 50px;
@@ -44,7 +44,19 @@
 	text-align: right;
 }
 
-.ar-right h1, .vr-left h1{
+.ar-right h1, .vr-left h1, .demo-videos h1{
 	padding-bottom: 30px;
+	color: #41a5f2;
 
+}
+
+.demo-videos-jumbotron{
+	background-image: url('image/giu-vicente-727228-unsplash.jpg');
+	background-size: cover;
+	background-position: center center;
+	height: 500px;
+	margin-bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
