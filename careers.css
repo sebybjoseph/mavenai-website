@@ -17,7 +17,7 @@
 	color: white;
 }
 
-.roles, .applicant-details{
+.roles, .applicant-details, .contact-details{
 	text-align: center;
 	background-color: #fff;
 	padding: 50px;
@@ -46,11 +46,11 @@
 	padding: 20px;
 }
 
-.applicant-details-form, .role-details{
+.applicant-details-form, .role-details, .contact-details-form{
 	margin: 0 auto;
 }
 
-.applicant-details-form button{
+.applicant-details-form button, .contact-details-form button{
 	margin: 10px;
 }
 
@@ -60,4 +60,9 @@
 
 .jd-list li{
 	text-align: left !important;
+}
+
+.contact-details-form h3{
+	color: #41a5f2;
+	padding: 10px;
 }
